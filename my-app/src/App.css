@@ -1,0 +1,52 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --black: black;
+  --background: #12131a;
+  --white: white;
+  --aqua: #5494a3
+}
+
+.paragraph {
+  color: var(--aqua);
+  font-size: 10px;
+  margin-left: 50px;
+  position: relative;
+  bottom: 10px;
+}
+
+.name {
+  margin-left: 50px;
+  font-size: 15px;
+
+}
+
+.MuiToolbar-root,
+.MuiToolbar-gutters,
+.MuiToolbar-regular,
+.css-hyum1k-MuiToolbar-root {
+  background-color: var(--background);
+  height: 80px;
+}
+
+.MuiInputBase-input,
+.css-yz9k0d-MuiInputBase-input {
+  padding-left: 200px;
+  background-color: aqua;
+}
+.notification{
+  background-color: var(--aqua);
+  padding-right: 18px;
+  padding-left: 8px;
+  padding-top: 5px;
+  border-radius: 50px;
+
+}
+.badge{
+  margin-left: 30px;
+  border-radius: 2px;
+  width: 5px;
+}
